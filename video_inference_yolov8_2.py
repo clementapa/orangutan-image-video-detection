@@ -10,10 +10,10 @@ YOLO_MODEL = YOLO("orang_outan_detection/train7/weights/best.pt")
 BOX_ANNOTATOR = sv.BoxAnnotator(color=Color.from_hex("#FF00E4"))
 
 path_video = "VID20230502094937.mp4"
-# path_video = "stock-footage-female-sumatran-orangutan-and-baby-sitting-on-tree-branch-against-green-foliage-on-background.webm"
+path_video = "/home/clement/Documents/personal_project/orang-outan-image-video-detection/hf_space/resources/examples_videos/stock-footage-wild-orangutan-baby-climbing-on-his-own-in-tree-in-bukit-lawang-sumatra-indonesia.mp4"
 # path_video = "stock-footage-pair-of-northwest-bornean-orangutans-on-the-ground-larger-one-covered-in-dusty-wood-chip-shavings.webm"
-path_video = "hf_space/resources/examples_videos/VID20230502094937.mp4"
-
+# path_video = "hf_space/resources/examples_videos/VID20230502094937.mp4"
+# path_video = "/home/clement/Documents/personal_project/orang-outan-image-video-detection/hf_space/resources/examples_videos/stock-footage-footage-of-big-adult-orang-utan-or-scientifically-known-as-pongo-pygmaeus-walk-on-lean-tree-trunk.mp4"
 video_capture = cv2.VideoCapture(path_video)
 
 # Check if the video file was successfully opened
@@ -62,7 +62,7 @@ def process_frame(frame: np.ndarray, confidence: float) -> np.ndarray:
     return annotated_frame
 
 
-confidence = 0.6
+confidence = 0.3
 
 while True:
     # Read a frame from the video

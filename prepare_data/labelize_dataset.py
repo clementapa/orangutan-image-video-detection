@@ -21,7 +21,7 @@ model = Model(
     model_config_path=CONFIG_PATH, model_checkpoint_path=WEIGHTS_PATH, device="cpu"
 )
 
-root_images = "dataset_orang_outan/data"
+root_images = "../datasets/dataset_orang_outan/data"
 list_images = glob.glob(osp.join(root_images, "**", "*.jpg"), recursive=True)
 
 classes = ["monkey"]

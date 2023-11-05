@@ -5,8 +5,8 @@ import shutil
 
 from sklearn.model_selection import train_test_split
 
-root_images = "datasets/10_monkey_species_kaggle"
-# root_images = "datasets/Monkey_Species_Data"
+root_images = "../datasets/10_monkey_species_kaggle"
+# root_images = "../datasets/Monkey_Species_Data"
 
 list_images = []
 for extension in ["*.jpg", "*.png", "*.jpeg", "*.JPG", "*.PNG", "*.JPEG"]:
