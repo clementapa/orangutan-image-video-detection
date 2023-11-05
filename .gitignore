@@ -375,3 +375,4 @@ android/pytorch_android_torchvision/.cxx
 wandb/
 orang_outan_detection
 datasets/
+*.mp4
