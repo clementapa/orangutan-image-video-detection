@@ -1,0 +1,12 @@
+names:
+- orang_outan
+nc: 1
+train: 
+  - /home/clement/Documents/personal_project/orang-outan-image-video-detection/dataset_orang_outan_annotation/split/train.txt
+  - /home/clement/Documents/personal_project/orang-outan-image-video-detection/10_monkey_species_kaggle_annotation/train.txt
+  # - /home/clement/Documents/personal_project/orang-outan-image-video-detection/Monkey_Species_Data_annotation/train.txt
+
+val: 
+  - /home/clement/Documents/personal_project/orang-outan-image-video-detection/dataset_orang_outan_annotation/split/validation.txt
+  - /home/clement/Documents/personal_project/orang-outan-image-video-detection/10_monkey_species_kaggle_annotation/validation.txt
+  # - /home/clement/Documents/personal_project/orang-outan-image-video-detection/Monkey_Species_Data_annotation/validation.txt
