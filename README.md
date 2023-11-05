@@ -13,6 +13,16 @@ for orang outan images and [this dataset](https://www.kaggle.com/datasets/slothk
 
 My experiments are publicly available on Weights & Biases: [![](https://github.com/wandb/assets/blob/main/wandb-github-badge-gradient.svg)](https://wandb.ai/clementapa/orang_outan_detection?workspace=user-clementapa)
 
+<p align="center">
+  <img src="assets/orang_outan_1.gif" width="400" height="200"/>
+  <img src="assets/orang_outan_2.gif" width="400" height="200"/>
+  <img src="assets/orang_outan_3.gif" width="400" height="200"/>
+    <img src="assets/orang_outan_4.gif" width="400" height="200"/>
+</p>
+<p align="center">
+<em> Detection results on some videos .</em>
+</p>
+
 ## 🦧 About the orang outans 
 Because to habitat destruction, illicit poaching, and the pet trade, orangutans are in danger of going extinct. Their natural habitat has been significantly reduced by deforestation and the growth of palm oil plantations. Adult orangutans are occasionally sought for their body parts, and they are frequently captured and sold as pets. Climate change and disease are also taking a toll on their populations. Furthermore, it is concerning to note that they are limited to Borneo and Sumatra, two places on Earth. Sustainable practises and conservation initiatives are crucial to preventing the permanent extinction of these amazing animals.
 
