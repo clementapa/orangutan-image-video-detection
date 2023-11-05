@@ -373,3 +373,4 @@ android/pytorch_android_torchvision/.cxx
 
 *.pt
 wandb/
+orang_outan_detection

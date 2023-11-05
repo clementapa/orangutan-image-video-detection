@@ -7,7 +7,7 @@
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-blueviolet.svg?style=plastic)
 
 ## 👁️ About the model
-This is a demo for my YOLOv8 nano trained for orang outan detection.\
+This is repository containing a full pipeline (from annotation to training) for building an orang outans detector.\
 The model was trained using [this dataset](https://images.cv/dataset/orangutan-image-classification-dataset)
 for orang outan images and [this dataset](https://www.kaggle.com/datasets/slothkong/10-monkey-species/data) as background images. Annotations were obtained using zero shot object detection method [GroundingDino](https://github.com/IDEA-Research/GroundingDINO).
 

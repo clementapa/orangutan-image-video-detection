@@ -5,7 +5,7 @@ import os.path as osp
 import yaml
 from sklearn.model_selection import train_test_split
 
-path_dataset = "dataset_orang_outan_annotation"
+path_dataset = "datasets/dataset_orang_outan_annotation"
 
 list_images = []
 for extension in ["*.jpg", "*.png", "*.jpeg", "*.JPG", "*.PNG", "*.JPEG"]:
