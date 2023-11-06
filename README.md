@@ -38,7 +38,7 @@ You can try the model on [![HuggingFace Space](https://img.shields.io/badge/🤗
 The pipeline can be used to create any type of detector. The pipeline is the following:
 1. Collect images of the target class.
 2. Collect negatives images that does not contain the target class, so that the model generalizes well.
-3. Auto-annotate images of the target class using zero-shot object detector such as GroudingDino (```prepare_data/labelize_dataset.py```).
+3. Auto-annotate images of the target class using zero-shot object detector such as GroudingDino (```prepare_data/labelize_dataset.py``` or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1iEjw1yekWZKV5feQnJeMcRuahocoSfR2?usp=sharing)).
 4. Create empty annotations for negatives images (```prepare_data/create_annotation_background_image.py```).
 5. Split the datasets (```prepare_data/split_data.py```).
 6. Create de yaml file containing information on the data to be used during training (```data.yaml```).
