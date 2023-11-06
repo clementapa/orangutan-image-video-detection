@@ -15,9 +15,9 @@
 </p>
 
 ## 👁️ About the model
-This is repository containing a full pipeline (from annotation to training) for building an orang outans detector.\
+This is repository containing a full pipeline (from annotation to training) for building an orangutans detector.\
 The model was trained using [this dataset](https://images.cv/dataset/orangutan-image-classification-dataset)
-for orang outan images and [this dataset](https://www.kaggle.com/datasets/slothkong/10-monkey-species/data) as background images. Annotations were obtained using zero shot object detection method [GroundingDino](https://github.com/IDEA-Research/GroundingDINO).
+for orangutan images and [this dataset](https://www.kaggle.com/datasets/slothkong/10-monkey-species/data) as background images. Annotations were obtained using zero shot object detection method [GroundingDino](https://github.com/IDEA-Research/GroundingDINO).
 
 My experiments are publicly available on Weights & Biases: [![](https://github.com/wandb/assets/blob/main/wandb-github-badge-gradient.svg)](https://wandb.ai/clementapa/orang_outan_detection?workspace=user-clementapa)
 
@@ -46,7 +46,7 @@ The pipeline can be used to create any type of detector. The pipeline is the fol
 
 ***If the project you're working on can contribute to wildlife conservation, don't hesitate to contact me, I'll be delighted to help. Also, during my free time, I am willing to work on projects related to wildlife conservation.***
 
-## 🦧 About the orang outans 
+## 🦧 About the orangutans 
 Because to habitat destruction, illicit poaching, and the pet trade, orangutans are in danger of going extinct. Their natural habitat has been significantly reduced by deforestation and the growth of palm oil plantations. Adult orangutans are occasionally sought for their body parts, and they are frequently captured and sold as pets. Climate change and disease are also taking a toll on their populations. Furthermore, it is concerning to note that they are limited to Borneo and Sumatra, two places on Earth. Sustainable practises and conservation initiatives are crucial to preventing the permanent extinction of these amazing animals.
 
 ## 🌍 AI for good 
@@ -61,7 +61,7 @@ Artificial Intelligence (AI) has unquestionable power in the realm of innovation
 
 | model |training name | data train | data validation | checkpoint | Experiment |
 |----------|----------|--------|------------------------|------------------------|------------------------|
-| YOLOv8n | train7 | 1085 images of orang outans & 1095 images of other monkeys | 272 images of orang outans & 274 images of other monkeys | [![](https://github.com/wandb/assets/blob/main/wandb-logo-yellow-dots-black-wb.svg)](https://wandb.ai/clementapa/orang_outan_detection/artifacts/model/run_wrec3egu_model/v0) | [![](https://github.com/wandb/assets/blob/main/wandb-github-badge-gradient.svg)](https://wandb.ai/clementapa/orang_outan_detection/runs/wrec3egu?workspace=user-clementapa) |
+| YOLOv8n | train7 | 1085 images of orangutans & 1095 images of other monkeys | 272 images of orangutans & 274 images of other monkeys | [![](https://github.com/wandb/assets/blob/main/wandb-logo-yellow-dots-black-wb.svg)](https://wandb.ai/clementapa/orang_outan_detection/artifacts/model/run_wrec3egu_model/v0) | [![](https://github.com/wandb/assets/blob/main/wandb-github-badge-gradient.svg)](https://wandb.ai/clementapa/orang_outan_detection/runs/wrec3egu?workspace=user-clementapa) |
 
 ### 📈 Metrics train 7 
 
